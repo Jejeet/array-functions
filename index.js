@@ -36,3 +36,11 @@ console.log(languages);
 let languages = ['C#', 'JavaScript', 'Ruby', 'PHP', 'Python'];
 languages.unshift('Scala', 'Swift');
 console.log(languages);
+//2e
+let languages = ['C#', 'JavaScript', 'Ruby', 'PHP', 'Python'];
+languages.splice(3, 1, 'Go', 'Rust');
+console.log(languages);
+//3 
+['apple', 'mango', 'orange']
+
+//4
