@@ -53,3 +53,11 @@ function max(numbers) {
     }
     return maxNumber;
   }
+//5 
+function valTimesIndex(numbers) {
+    let result = [];
+    for (let i = 0; i < numbers.length; i++) {
+      result.push(numbers[i] * i);
+    }
+    return result;
+  }
