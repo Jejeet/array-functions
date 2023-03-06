@@ -44,3 +44,12 @@ console.log(languages);
 ['apple', 'mango', 'orange']
 
 //4
+function max(numbers) {
+    let maxNumber = numbers[0]; // assume first number is maximum
+    for (let i = 1; i < numbers.length; i++) {
+      if (numbers[i] > maxNumber) {
+        maxNumber = numbers[i]; // update maximum number
+      }
+    }
+    return maxNumber;
+  }
